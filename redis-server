@@ -1,0 +1,9 @@
+protected-mode no
+
+
+port 6379
+
+#authentification
+
+masterauth a very-complex-password-here
+requirepas a very-complex-password-here

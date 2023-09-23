@@ -1,0 +1,19 @@
+protected-mode no
+
+port 6379
+
+slaveof odilia-redis01 6379
+
+
+
+protected-mode no
+
+port 6379
+
+slaveof redis-0 6379
+
+
+#authentification
+
+masterauth a very-complex-password-here
+requirepass a very-complex-password-here
